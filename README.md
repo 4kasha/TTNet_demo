@@ -3,6 +3,7 @@
 [image1]: media/test1_result.gif "Result1"
 [image2]: media/test2_result.gif "Result2"
 [image3]: media/test2_invert.gif "Result_inv"
+[image4]: media/tennis.gif "tennis"
 
 # TTNet Demo
 
@@ -24,13 +25,18 @@ A demo (60 fps) by a trained model (loss condition : Unbalanced) using following
 |:-------------------:|:-------------------:|
 |![Result1][image1]|![Result2][image2]|
 
-This model is almost robust for time invertion input.
+This model is almost robust for time inversion input.
 
 ![Result_inv][image3]
 
-## Application to videos from YouTube
 
+## Input videos from YouTube (60 fps)
 
+* Ball detection : moderate, Segmentation & Event : terrible
+* Clip video scene from 1:18 ([link](https://www.youtube.com/watch?v=G92cKxANHjQ))
+* ref. [download video : pytube.ipynb](pytube.ipynb)
+
+![tennis][image4]
 
 
 ## Reference
